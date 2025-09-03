@@ -12,36 +12,39 @@ import AboutUs from './AboutUS';
 import Service from './Service';
 import Package from './Package';
 import Contact from './Contact';
+import Footer from './Footer';
 
 
 function Header() {
   return ( 
     <div className='swiftprofile'>
       <div className='swiftprofile'>
-
 <Navbar>
-        <Container className='menu-container'>
-        <Navbar.Brand href="#">
-            <img className='menu-logo' src= {logo} alt='Logo' /></Navbar.Brand>
-        
+        <div className='container-fluid menu-container'>
+        <div className='NavbarBrand' href="#">
+            <img className='menu-logo' src= {logo} alt='Logo' />
+            </div>
             <Nav className="menu-link">
-            <Nav.Link href="#"><span>HOME</span></Nav.Link>
-            <Nav.Link href="#">ABOUT US</Nav.Link>
-            <Nav.Link href="#">SERVICES</Nav.Link>
-            <Nav.Link href="#">PACKAGE</Nav.Link>
-            <Nav.Link href="#">CONTACT</Nav.Link>
+            <Nav.Link href="/"><span>HOME</span></Nav.Link>
+            <Nav.Link href="#about-us">ABOUT US</Nav.Link>
+            <Nav.Link href="#service">SERVICES</Nav.Link>
+            <Nav.Link href="#package">PACKAGE</Nav.Link>
+            <Nav.Link href="#contact">CONTACT</Nav.Link>
+            <div className='button-container'>
             <Button className='home-button' type="submit">LOG IN</Button>
             <Button className='home-button' type="submit">SIGN UP</Button>
+         </div>
           </Nav>
-        </Container>
+
+        </div>
       </Navbar>
          </div>
-
         <Home />
         <AboutUs />
         <Service />
         <Package />
         <Contact />
+        <Footer />
 
 
     </div>

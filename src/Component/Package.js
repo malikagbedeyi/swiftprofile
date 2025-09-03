@@ -22,7 +22,7 @@ import Button from 'react-bootstrap/Button';
 
 function Package() {
   return (
-    <div>
+    <div id='package'>
       <div className='Package'>
         <Container>
         <div className="packages">

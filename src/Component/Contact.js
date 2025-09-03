@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button';
 
 function Contact() {
   return (
-    <div>
+    <div id='contact'>
       <div className="contact">
    <Container>
         <Row>
@@ -67,16 +67,6 @@ function Contact() {
         </Row>
     </Container>
 </div>
-
-<footer>
-<div className="the-end">
-     <div className="container-2">
-      <a className="footer-link" target="_blank" href="https://www.linkedin.com/in/Agbedeyi-Malik/">LinkedIn</a>
-      <a className="footer-link" target="_blank" href="https://twitter.com/Aggbedeyi-Malik">Twitter</a>
-      <a className="footer-link" target="_blank" href="https://www.appbrewery.co/">Website</a>
-      </div>
-</div>
-</footer>
     </div>
   )
 }

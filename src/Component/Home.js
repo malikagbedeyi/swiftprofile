@@ -21,7 +21,7 @@ function Home() {
             </div>
 				<h1 className="home-text-1"> Ultimate platform to build strong profile for #Tech jobs in the UK, Ireland and Germany.</h1>
 				<h6 className="home-text-2">At SwiftProfile, we will help you with simulated learning, mentoring and a strong profile with or without previous background in Tech.</h6>
-					<Button className='home-button' type="submit">LEARN MORE</Button>
+					<Button className='home-btn' type="submit">LEARN MORE</Button>
             </div>
           </Col>
 
